@@ -96,9 +96,7 @@ WSGI_APPLICATION = 'school.wsgi.application'
 
 # Database configuration
 DATABASES = {
-    "default": dj_database_url.config(
-        default="sqlite:///db.sqlite3"  # Fallback to SQLite if DATABASE_URL is not set
-    )
+    'default': dj_database_url.config(default=config('DATABASE_URL', default=''))
 }
 
 # Password validation
