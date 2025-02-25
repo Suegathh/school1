@@ -70,7 +70,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
+    "https://school-react-tmz8.vercel.app",
     "http://127.0.0.1:5173"
 ]
 
