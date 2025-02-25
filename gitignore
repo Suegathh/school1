@@ -1,0 +1,28 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+
+# Django
+*.log
+db.sqlite3
+media
+
+# Environments
+.env
+*.env
+
+# PyCharm
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
